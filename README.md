@@ -1,6 +1,6 @@
 <div align="center">
 
-# Portafolio web (Web Portfolio)
+<h1 align="center"><img src="assets/readme-banners/portafolio-publico.svg" alt="Portafolio web (Web Portfolio)" width="100%"></h1>
 
 ### Una experiencia digital que reúne distintas áreas de interés
 
