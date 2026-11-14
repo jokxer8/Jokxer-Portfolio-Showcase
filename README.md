@@ -1,10 +1,10 @@
 <div align="center">
 
-# ✦ Portfolio Web
+# Portafolio web (Web Portfolio)
 
-### Una experiencia digital para reunir distintas áreas de interés
+### Una experiencia digital que reúne distintas áreas de interés
 
-**Diseño, narrativa personal y desarrollo web en evolución.**
+**Diseño, identidad personal y desarrollo web en evolución.**
 
 ![Proyecto](https://img.shields.io/badge/proyecto-portafolio-7c3aed?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-f59e0b?style=for-the-badge)
@@ -16,7 +16,7 @@
 
 ## El proyecto
 
-Un portafolio web personal que conecta contenido profesional, intereses creativos y proyectos en una experiencia de navegación adaptable. La propuesta combina una identidad visual diferenciada por áreas con componentes y contenido organizados para seguir creciendo.
+Un portafolio web personal que conecta el perfil profesional, los intereses creativos y varios proyectos en una experiencia adaptable. La propuesta combina una identidad visual propia para cada área con componentes organizados para seguir creciendo.
 
 ## Áreas
 
@@ -24,23 +24,22 @@ Un portafolio web personal que conecta contenido profesional, intereses creativo
 | --- | --- |
 | 👤 Personal | Presentación e intereses |
 | 💼 Profesional | Habilidades y proyectos |
-| 🎮 Gaming | Juegos y publicaciones |
+| 🎮 Videojuegos | Juegos y publicaciones |
 | ⚽ Deporte | Trayectoria y formación |
 | ✉️ Contacto | Canales de comunicación |
 
 ## Diseño y tecnología
 
-La interfaz utiliza secciones independientes, navegación adaptable a móviles, animaciones moderadas y una paleta visual que ayuda a distinguir cada área. El proyecto se desarrolla con tecnologías modernas de frontend, incluyendo React y TypeScript.
+La interfaz utiliza secciones independientes, navegación adaptable a móviles, animaciones moderadas y una paleta que distingue cada área. El desarrollo emplea tecnologías actuales de frontend, entre ellas React y TypeScript.
 
 ## Estado del proyecto
 
 | Estado | Trabajo |
 | --- | --- |
-| 🟢 Publicado | Sitio disponible para exploración |
-| 🟡 En desarrollo | Contenido y experiencia continúan evolucionando |
+| 🟢 Publicado | Sitio disponible para explorar |
+| 🟡 En desarrollo | El contenido y la experiencia siguen evolucionando |
 | ⚪ Próximo | Mejoras de accesibilidad, contenido y funcionalidades |
 
 ## Transparencia
 
-Este repositorio presenta el proyecto a nivel general. El código fuente y la documentación de implementación se mantienen en un repositorio privado. Los estados publicados describen el avance general y no representan una auditoría técnica completa.
-
+Este repositorio presenta el proyecto en términos generales. El código fuente y la documentación de implementación se mantienen en un repositorio privado. Los estados describen el avance general y no representan una auditoría técnica completa.
