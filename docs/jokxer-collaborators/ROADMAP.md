@@ -1,22 +1,20 @@
 # Hoja de ruta
 
-| Fase | Entrega principal | Condición para avanzar |
+| Fase | Entrega principal | Situación / condición para avanzar |
 | --- | --- | --- |
-| 1 — Fundación | Diagnóstico, arquitectura y contratos | Base coherente, sin regresiones reportadas |
-| 2 — Identidad | Gestión de usuarios, invitaciones y roles | Administración real, correo y permisos verificados |
-| 3 — Perfiles | Edición de datos profesionales y vista individual | Privacidad y edición por propietario comprobadas |
-| 4 — Portafolios | Repositorios, proyectos y recursos | Validación, cuotas y almacenamiento privado |
-| 5 — Moderación | Revisión, versiones y aprobación | Ninguna edición se publica sin autorización |
-| 6 — Comunicación | Avisos y flujos de notificaciones | Envíos y fallos controlados |
-| 7 — Calidad | Pruebas de seguridad, accesibilidad y rendimiento | Sin fallos críticos abiertos |
-| 8 — Lanzamiento | Visibilidad pública controlada y SEO | Aprobación explícita del propietario |
+| 1 — Fundación | Diagnóstico, arquitectura y contratos | Completada según documentación |
+| 2 — Identidad | Usuarios, invitaciones, roles y paneles | Implementada según informe; falta probar suspensión y confirmar correo transaccional |
+| 3 — Perfiles | Edición profesional y vista individual | Pendiente; privacidad y edición por propietario deben probarse |
+| 4 — Portafolios | Proyectos, repositorios y recursos | Pendiente; requiere aislamiento, cuotas y almacenamiento privado |
+| 5 — Moderación | Versionado, revisión y aprobación | Pendiente; ninguna edición debe publicarse sin autorización |
+| 6 — Comunicación | Avisos y notificaciones | Pendiente de confirmar entrega real y manejo de fallos |
+| 7 — Calidad | Seguridad, accesibilidad y rendimiento | Pendiente de validación integral |
+| 8 — Lanzamiento | Visibilidad pública controlada y SEO | Requiere completar fases previas y autorización del propietario |
 
-## Principios de ejecución
+## Principios
 
-- Fases de alcance amplio pero verificable, sin reconstrucción constante.
-- No modificar innecesariamente la experiencia ya aprobada de jokxer.dev.
-- No contratar servicios adicionales por el momento.
-- Documentar evidencias y límites de cada versión.
-- Publicar únicamente resultados confirmados como públicos.
-
-**Situación actual:** fases 1 y 2 reportadas como implementadas en sus respectivos alcances; la segunda todavía requiere pruebas operativas antes de darse por validada.
+- Completar flujos verificables por fases.
+- Preservar la experiencia aprobada de jokxer.dev.
+- No contratar servicios adicionales en esta etapa.
+- Registrar evidencia y límites por versión.
+- Mantener cerrado el módulo mientras haya validaciones operativas pendientes.
