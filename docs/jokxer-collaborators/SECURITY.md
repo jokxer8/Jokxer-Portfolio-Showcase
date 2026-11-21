@@ -1,28 +1,30 @@
 # Seguridad, privacidad y alcance público
 
-La seguridad es un criterio de aceptación, no una característica decorativa.
+La seguridad forma parte de los criterios de aceptación del módulo.
 
 ## Políticas del proyecto
 
-- Solo el propietario autoriza la creación de colaboradores.
-- No ofrecer autorregistro público.
-- Mantener separadas las funciones de administración y colaboración.
-- Autorizar operaciones sobre datos desde servidor/base de datos, no solo mediante elementos de interfaz.
-- Mantener privados los borradores y archivos pendientes de aprobación.
-- Exigir revisión editorial antes de exponer contenido.
-- Evitar ejecutar códigos o documentos subidos por usuarios.
-- Registrar operaciones administrativas relevantes, limitando datos sensibles en los registros.
-- No compartir claves, contraseñas, tokens, respaldos ni configuraciones internas en GitHub.
-- Mantener el NAS y la red privada fuera del acceso de colaboradores.
+- Las cuentas se crean por invitación administrativa; no hay autorregistro.
+- Administración y colaborador tienen funciones separadas.
+- La autorización se comprueba en servidor y base de datos.
+- Los borradores y archivos futuros permanecerán privados hasta aprobación.
+- No se ejecuta código enviado por usuarios.
+- Las acciones administrativas relevantes se registran.
+- No se publican claves, tokens, respaldos, configuraciones internas ni datos personales.
+- El NAS y la red privada no forman parte del acceso de colaboradores.
 
-## Estado de validación
+## Estado de verificación al 21 de noviembre de 2026
 
-El informe de la Fase 2 declara pruebas de separación de datos y controles de acceso, pero **no se ha realizado aún la validación operativa de punta a punta con administrador y colaboradores reales**. No interpretar las descripciones como una certificación de seguridad.
+El informe técnico registra pruebas de RLS/grants y bloqueos de acceso no autorizado, además de typecheck, lint y build correctos. Se observó visualmente el panel privado con una cuenta de prueba activa.
+
+**Pendiente de prueba operativa:** suspender una cuenta de prueba y confirmar que la sesión existente se cierra, que el reingreso queda bloqueado y que las operaciones protegidas también se deniegan desde solicitudes directas. La entrega real del correo transaccional tampoco cuenta con confirmación documentada.
+
+No interpretar la implementación informada como certificación de seguridad ni como autorización para abrir el módulo al público.
 
 ## Reporte responsable
 
-No publicar vulnerabilidades explotables, claves o datos personales en issues públicos. Utilizar un canal privado con el propietario para reportar hallazgos de seguridad.
+No publicar vulnerabilidades explotables, secretos ni datos de colaboradores en issues públicos. Reportar hallazgos sensibles mediante un canal privado con el propietario.
 
-## Publicación abierta y privacidad
+## Privacidad y publicación
 
-Esta documentación divulga objetivos, componentes generales, fases e hitos. No divulga estructura sensible de operaciones privilegiadas ni procedimientos de provisión de cuentas. El consentimiento de cada colaborador será obligatorio antes de publicar su perfil.
+Este repositorio comunica el propósito, el avance general y las limitaciones. Los perfiles de colaboradores solo podrán publicarse tras completar las fases correspondientes, obtener consentimiento y recibir aprobación administrativa.
