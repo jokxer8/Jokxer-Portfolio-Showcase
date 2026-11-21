@@ -1,18 +1,22 @@
 # Registro público de cambios
 
-## 2026-11-20 — Fase 2 (implementación reportada)
-- Construcción reportada de esquema de identidades, invitaciones y auditoría en Bolt Database.
-- Flujos privados de acceso, activación y administración reportados.
-- Integración transaccional de correo preparada, pendiente de comprobar entrega real.
-- Refuerzo reportado del formulario de contacto.
-- Compilación y pruebas técnicas declaradas correctas por el entorno de desarrollo.
-- **Pendiente:** inicialización del administrador y pruebas operativas reales.
+## 2026-11-21 — Actualización del estado de validación
 
-## 2026-11 — Fase 1 (documentación y arquitectura)
-- Diagnóstico de la SPA y de su infraestructura de datos.
-- Contratos TypeScript para el dominio de colaboradores.
-- Rutas previstas inicialmente deshabilitadas.
-- Arquitectura, modelo de datos, controles de acceso y roadmap documentados.
-- Preservación declarada de las secciones originales.
+- Documentado el acceso visual al panel privado con una cuenta de prueba activa.
+- Separada esta observación de la validación completa de autenticación, correos y controles posteriores a la suspensión.
+- **Pendiente:** prueba operativa de suspensión, revocación de sesión, bloqueo de reingreso y denegación de solicitudes directas.
+- Se conserva la nota de que la entrega real de correos necesita confirmación.
+- Se aclara que el módulo no está abierto al público y no publica perfiles.
 
-> Se documenta el progreso reportado, sin publicar secretos ni presentar pendientes como funciones verificadas.
+## 2026-11-20 — Fase 2 implementada según informe
+
+- Implementación reportada de base de datos, autenticación, invitaciones, paneles privados y controles de acceso.
+- Endurecimiento del formulario de contacto y comprobaciones de seguridad de base de datos.
+- Typecheck, lint y build reportados correctos.
+
+## 2026-11 — Fase 1: documentación y arquitectura
+
+- Diagnóstico de la SPA, contratos TypeScript, arquitectura y hoja de ruta.
+- Rutas futuras mantenidas fuera de los menús públicos.
+
+> Este registro describe el avance documentado y sus límites; no presenta pruebas pendientes como aprobadas.
