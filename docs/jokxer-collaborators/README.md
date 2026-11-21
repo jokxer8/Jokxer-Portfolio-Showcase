@@ -1,61 +1,50 @@
 # Jokxer Collaborators — registro público de desarrollo
 
-> **Estado al 20 de noviembre de 2026:** Fase 1 documentada; Fase 2 implementada según el informe del entorno de desarrollo, **pendiente de validación operativa**. No se presenta como una plataforma abierta ni disponible para colaboradores.
+> **Corte: 21 de noviembre de 2026.** La Fase 2 está implementada según el informe técnico. Se observó el panel privado con una cuenta de prueba activa. La prueba operativa de suspensión sigue pendiente. El módulo no está abierto al público.
 
-**Jokxer Collaborators** es un módulo en desarrollo de [jokxer.dev](https://jokxer.dev/) que permitirá a colaboradores autorizados administrar pequeños portafolios profesionales sin editar código. El propietario conserva la facultad de revisar, corregir y aprobar las publicaciones antes de hacerlas públicas.
-
-## Qué problema busca resolver
-
-Unificar la presentación del trabajo colaborativo —proyectos, repositorios, diseños, documentación y planificación— en una experiencia profesional coherente, con responsabilidades y autorías claras.
+**Jokxer Collaborators** es un módulo privado en desarrollo dentro de [jokxer.dev](https://jokxer.dev/) para que colaboradores invitados gestionen un perfil profesional. La administración controla las cuentas. Las herramientas para proyectos, recursos, revisión editorial y publicación pública pertenecen a fases futuras.
 
 ## Principios
 
-- **Acceso cerrado:** solo el administrador crea cuentas; no hay autorregistro de colaboradores.
-- **Control editorial:** el colaborador propone cambios y el administrador autoriza cada publicación.
-- **Versionado:** el contenido aprobado se mantiene visible mientras una nueva versión espera revisión.
-- **Seguridad y privacidad:** aislamiento por usuario, controles en backend y datos, archivos privados antes de aprobarse.
-- **Evolución gradual:** preservar las secciones existentes de jokxer.dev; cero inversión adicional en esta etapa.
-- **Documentación verificable:** diferenciar código implementado, pruebas ejecutadas y validaciones pendientes.
+- Acceso cerrado por invitación; no existe autorregistro.
+- Controles de autorización en servidor y base de datos.
+- Revisión administrativa antes de cualquier publicación futura.
+- Proteger datos y sesiones de las cuentas.
+- Mantener el sitio existente y usar infraestructura disponible, sin inversión adicional en esta etapa.
+- Diferenciar implementación informada de pruebas realmente ejecutadas.
 
-## Tecnología y ecosistema
+## Componentes
 
 | Componente | Uso |
 | --- | --- |
-| React, TypeScript, Vite y Tailwind CSS | Interfaz de la web existente |
-| Bolt Database | Identidades y datos del módulo |
-| Resend | Notificaciones transaccionales previstas/integradas |
+| React, TypeScript, Vite y Tailwind CSS | Interfaz del portafolio y del módulo privado |
+| Bolt Database | Identidad y datos del módulo |
+| Resend | Correo transaccional previsto; entrega aún sin confirmación documentada |
 | Cloudflare | Dominio e infraestructura DNS existente |
-| GitHub | Documentación pública y seguimiento |
-| Google Search Console | Visibilidad de contenido aprobado en etapas posteriores |
-| NAS y Tailscale | Infraestructura **privada**, no expuesta a colaboradores |
+| GitHub | Código privado y documentación pública selectiva |
+| Google Search Console | Posible uso futuro para contenido aprobado |
+| NAS y Tailscale | Infraestructura privada, fuera del acceso de colaboradores |
 
-Los componentes e integraciones se describen a nivel general. Las configuraciones internas, secretos y datos de usuarios no se publican.
+## Estado
 
-## Avance documentado
+| Alcance | Estado al corte |
+| --- | --- |
+| Fase 1: auditoría y arquitectura | Completada según documentación |
+| Fase 2: identidad, invitaciones, paneles y controles de datos | Implementada según informe técnico |
+| Acceso al panel privado con cuenta de prueba | Observado visualmente |
+| Prueba operativa de suspensión y bloqueo de sesión | **Pendiente** |
+| Entrega real de correos transaccionales | Pendiente de confirmar |
+| Perfiles, proyectos, recursos y aprobación editorial | Fases futuras |
+| Publicación pública y SEO de perfiles | No habilitados |
 
-| Fase | Alcance | Estado |
-| --- | --- | --- |
-| 1 | Auditoría, arquitectura, contratos, rutas previstas y documentación | **Completada según informe técnico** |
-| 2 | Base de datos, autenticación, invitaciones, paneles y control de acceso | **Implementación informada; validación operativa pendiente** |
-| 3 | Perfiles profesionales y edición visual | Pendiente |
-| 4 | Proyectos, repositorios y recursos | Pendiente |
-| 5 | Moderación, versiones y publicaciones | Pendiente |
-| 6 | Notificaciones e integración ampliada | Pendiente |
-| 7 | Seguridad integral, pruebas y optimización | Pendiente |
-| 8 | Lanzamiento controlado y SEO | Pendiente |
+Las comprobaciones reportadas de acceso a base de datos, typecheck, lint y build fueron satisfactorias. La observación del panel confirma que esa pantalla abrió con una cuenta de prueba; no prueba por sí sola todos los flujos de autenticación ni la suspensión.
 
-La Fase 2 incluye en su informe migraciones, controles de acceso y rutas privadas, además de compilación, verificación de tipos y lint. **Todavía faltan pruebas con una cuenta administrativa real y confirmación de entrega de correos.** No se publican detalles de acceso ni procedimientos privilegiados.
+## Documentos
 
-## Lecturas
-
-- [Bitácora de hitos](MILESTONES.md)
-- [Visión arquitectónica](ARCHITECTURE.md)
-- [Seguridad y publicación](SECURITY.md)
+- [Hitos y evidencias](MILESTONES.md)
+- [Arquitectura](ARCHITECTURE.md)
+- [Seguridad y privacidad](SECURITY.md)
 - [Hoja de ruta](ROADMAP.md)
 - [Registro de cambios](CHANGELOG.md)
 
-## Alcance del repositorio
-
-Este espacio es una **vitrina documental pública** del progreso del desarrollo, no un repositorio de credenciales, respaldos de base de datos ni código de producción. La aplicación sigue integrada en el proyecto original de [jokxer.dev](https://jokxer.dev/).
-
-Desarrollado como proyecto personal de ingeniería de software por [Jokxer](https://github.com/jokxer8).
+Este repositorio es una vitrina documental. No contiene código de producción, secretos, instrucciones privilegiadas ni datos privados de colaboradores.
