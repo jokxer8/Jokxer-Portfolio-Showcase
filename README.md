@@ -46,17 +46,17 @@ Este repositorio presenta el proyecto en términos generales. El código fuente 
 
 ---
 
-## 🧩 Nuevo desarrollo: Jokxer Collaborators
+## Nuevo desarrollo: Jokxer Collaborators
 
-**Jokxer Collaborators** es una aplicación modular en desarrollo dentro de jokxer.dev. Busca ofrecer a colaboradores autorizados un espacio profesional para presentar proyectos, repositorios, diseños y documentación, con **cuentas creadas exclusivamente por el administrador** y aprobación editorial previa a toda publicación.
+**Jokxer Collaborators** es un módulo privado en desarrollo dentro de jokxer.dev para que colaboradores invitados administren un perfil profesional. Las cuentas se crean por invitación y cualquier publicación futura quedará bajo control administrativo.
 
-**Avance al 20 de noviembre de 2026:** la arquitectura (Fase 1) está documentada; la implementación de identidad, invitaciones, paneles privados y permisos (Fase 2) fue reportada como terminada por Bolt, pero **faltan validar la cuenta administrativa real y la entrega efectiva de correos**. El módulo aún no se ofrece públicamente.
+**Estado al 21 de noviembre de 2026:** Fase 2 implementada según el informe técnico; se observó el panel privado con una cuenta de prueba activa. Las pruebas de seguridad de base de datos, typecheck, lint y build fueron reportadas como satisfactorias. **Queda pendiente probar la suspensión de una cuenta**, incluida la revocación de la sesión y el bloqueo de reingreso y operaciones directas. La entrega real de correos transaccionales sigue pendiente de confirmación. El módulo no está abierto al público y aún no publica perfiles.
 
-- [📘 Presentación y estado del proyecto](docs/jokxer-collaborators/README.md)
-- [📍 Hitos y evidencias](docs/jokxer-collaborators/MILESTONES.md)
-- [🏗️ Arquitectura conceptual](docs/jokxer-collaborators/ARCHITECTURE.md)
-- [🛡️ Política de seguridad](docs/jokxer-collaborators/SECURITY.md)
-- [🗺️ Hoja de ruta](docs/jokxer-collaborators/ROADMAP.md)
-- [📝 Registro de cambios](docs/jokxer-collaborators/CHANGELOG.md)
+- [Presentación y estado](docs/jokxer-collaborators/README.md)
+- [Hitos y evidencias](docs/jokxer-collaborators/MILESTONES.md)
+- [Arquitectura](docs/jokxer-collaborators/ARCHITECTURE.md)
+- [Seguridad](docs/jokxer-collaborators/SECURITY.md)
+- [Hoja de ruta](docs/jokxer-collaborators/ROADMAP.md)
+- [Registro de cambios](docs/jokxer-collaborators/CHANGELOG.md)
 
-El código, las operaciones privilegiadas y los secretos no se publican en esta documentación. **Presupuesto adicional: USD 0**.
+El código y los procedimientos internos permanecen en el repositorio privado. No se incluyen secretos ni datos de cuentas. El trabajo utiliza infraestructura existente, con presupuesto adicional de USD 0.
