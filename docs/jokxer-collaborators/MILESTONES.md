@@ -1,43 +1,39 @@
 # Hitos y evidencias — Jokxer Collaborators
 
-_Corte documental: 20 de noviembre de 2026._
+_Corte documental: 21 de noviembre de 2026._
 
-Las referencias siguientes proceden de los **informes de implementación generados por Bolt** y compartidos por el propietario. No equivalen a una auditoría independiente del código ni a pruebas externas en producción.
+Los detalles de implementación y resultados de pruebas de seguridad proceden del informe del entorno de desarrollo. La observación de la interfaz procede de una captura del panel privado con una cuenta de prueba. Estas evidencias no equivalen a una auditoría independiente ni a un lanzamiento en producción.
 
 ## Fase 1 — Arquitectura y cimentación
 
-**Reportada como completada.**
+**Completada según el informe técnico.**
 
-- Auditoría de la aplicación React/TypeScript existente y su navegación.
-- Definición de módulos, tipos de dominio y rutas futuras inicialmente deshabilitadas.
-- Modelo conceptual para perfiles, proyectos, recursos, revisiones, publicaciones y notificaciones.
-- Reglas de preservación del sitio, arquitectura modular y documentación técnica.
+- Auditoría de la SPA React/TypeScript y su infraestructura existente.
+- Definición de módulos, tipos de dominio, permisos y rutas futuras.
+- Modelo conceptual de colaboradores, invitaciones, proyectos, recursos, revisión, publicación y notificaciones.
+- Documentación de arquitectura, seguridad, integraciones, pruebas y hoja de ruta.
 - Build, verificación de tipos y lint reportados sin errores bloqueantes.
-- No se habilitó un directorio público de colaboradores en esta fase.
+- Sin directorio público de colaboradores ni rutas activas en esta fase.
 
 ## Fase 2 — Identidades y administración
 
-**Implementación reportada; validación de operación real pendiente.**
+**Implementada según el informe técnico; comprobaciones de base de datos reportadas como satisfactorias.**
 
-- Tres entidades de datos reportadas: perfiles de colaboradores, invitaciones y bitácora administrativa.
-- Invitaciones controladas por administración, con vigencia limitada y uso único.
-- Interfaces privadas de administración y colaboradores.
-- Flujos reportados de acceso, recuperación y suspensión de cuentas.
-- Rutas profundas y navegación compatibles con el sitio existente.
-- Revisión de permisos de la mensajería de contacto y protección básica contra abuso.
-- Pruebas de aislamiento de datos y comprobaciones de build/tipos/lint reportadas como satisfactorias.
+- Perfiles, invitaciones y auditoría con controles de acceso.
+- Acceso por invitación y recuperación de cuenta.
+- Panel privado de administración y panel básico del colaborador.
+- Gestión administrativa de usuarios, invitaciones y auditoría.
+- Rutas privadas compatibles con acceso directo, refresh e historial.
+- Medidas contra abuso en el formulario de contacto.
+- Typecheck, lint y build reportados como correctos.
 
-## Pendientes explícitos de aceptación de la Fase 2
+## Validación operativa observada
 
-- Inicializar de forma segura la identidad del administrador real.
-- Comprobar inicio de sesión, permisos y ciclo de vida con cuentas reales de prueba.
-- Confirmar que los correos transaccionales se entregan efectivamente.
-- Verificar funcionamiento del buzón de respuesta para comunicaciones del proyecto.
-- Confirmar que los cambios están presentes en el entorno donde se harán las pruebas, sin exponer el módulo públicamente.
-- Evaluar límites operativos reales de servicios y almacenamiento antes de incorporar archivos.
+- El panel privado del colaborador abrió con una cuenta de prueba activa.
+- La captura confirma acceso visual a ese panel, no todos los flujos de invitación ni de correo.
+- **Pendiente:** ejecutar la acción de suspensión y confirmar cierre de la sesión existente, bloqueo de reingreso y denegación de operaciones directas.
+- La entrega real de correos transaccionales continúa sin confirmación documentada.
 
-**No se afirma que la Fase 2 esté lista para lanzamiento público.**
+## Publicación
 
-## Política de publicación
-
-Los hitos se documentan públicamente sin reproducir tokens, identificadores privados, direcciones de infraestructura interna, SQL operativo privilegiado ni datos de colaboradores.
+El sitio personal sigue separado del módulo privado. No se publican perfiles de colaboradores, datos de cuenta, tokens, instrucciones privilegiadas ni detalles internos de infraestructura.
