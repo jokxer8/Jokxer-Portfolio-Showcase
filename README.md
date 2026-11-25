@@ -40,6 +40,8 @@ La interfaz utiliza secciones independientes, navegación adaptable a móviles, 
 
 ## Estado del proyecto
 
+El [registro de hitos](docs/jokxer-collaborators/MILESTONES.md#flujos-de-prueba) es la referencia pública para seguir qué se comprobó en Collaborators. La implementación y los procedimientos operativos se documentan por separado en el repositorio privado.
+
 | Estado | Trabajo |
 | --- | --- |
 | 🟢 Publicado | Sitio disponible para explorar |

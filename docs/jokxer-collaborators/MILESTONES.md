@@ -49,3 +49,5 @@ Los detalles de implementación y resultados de pruebas de seguridad proceden de
 ## Publicación
 
 El sitio personal sigue separado del módulo privado. No se publican perfiles de colaboradores, datos de cuenta, tokens, instrucciones privilegiadas ni detalles internos de infraestructura.
+
+[Volver a la vitrina pública](../../README.md#jokxer-collaborators).
