@@ -5,7 +5,7 @@
 - Documentado el acceso visual al panel privado con una cuenta de prueba activa.
 - Separada esta observación de la validación completa de autenticación, correos y controles posteriores a la suspensión.
 - **Pendiente:** prueba operativa de suspensión, revocación de sesión, bloqueo de reingreso y denegación de solicitudes directas.
-- Se conserva la nota de que la entrega real de correos necesita confirmación.
+- La confirmación inicial de correo quedaba pendiente. Un seguimiento posterior registró la recepción y activación de una invitación de prueba; falta recuperación por correo.
 - Se aclara que el módulo no está abierto al público y no publica perfiles.
 
 ## 2026-11-20 — Fase 2 implementada según informe

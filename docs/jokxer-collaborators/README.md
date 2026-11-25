@@ -19,7 +19,7 @@
 | --- | --- |
 | React, TypeScript, Vite y Tailwind CSS | Interfaz del portafolio y del módulo privado |
 | Bolt Database | Identidad y datos del módulo |
-| Resend | Correo transaccional previsto; entrega aún sin confirmación documentada |
+| Resend | Envío de una invitación de prueba registrado; recuperación por correo sin validar |
 | Cloudflare | Dominio e infraestructura DNS existente |
 | GitHub | Código privado y documentación pública selectiva |
 | Google Search Console | Posible uso futuro para contenido aprobado |
@@ -33,7 +33,7 @@
 | Fase 2: identidad, invitaciones, paneles y controles de datos | Implementada según informe técnico |
 | Acceso al panel privado con cuenta de prueba | Observado visualmente |
 | Prueba operativa de suspensión y bloqueo de sesión | **Pendiente** |
-| Entrega real de correos transaccionales | Pendiente de confirmar |
+| Invitación de prueba | Recibida y activada; no valida la recuperación por correo |
 | Perfiles, proyectos, recursos y aprobación editorial | Fases futuras |
 | Publicación pública y SEO de perfiles | No habilitados |
 
