@@ -32,7 +32,7 @@ Los detalles de implementación y resultados de pruebas de seguridad proceden de
 - El panel privado del colaborador abrió con una cuenta de prueba activa.
 - La captura confirma acceso visual a ese panel, no todos los flujos de invitación ni de correo.
 - **Pendiente:** ejecutar la acción de suspensión y confirmar cierre de la sesión existente, bloqueo de reingreso y denegación de operaciones directas.
-- La entrega real de correos transaccionales continúa sin confirmación documentada.
+- Se registró la recepción y activación de una invitación de prueba. La recuperación de acceso por correo y la prueba de suspensión siguen pendientes.
 
 ## Publicación
 

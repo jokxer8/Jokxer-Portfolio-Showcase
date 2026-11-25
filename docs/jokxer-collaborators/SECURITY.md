@@ -17,7 +17,7 @@ La seguridad forma parte de los criterios de aceptación del módulo.
 
 El informe técnico registra pruebas de RLS/grants y bloqueos de acceso no autorizado, además de typecheck, lint y build correctos. Se observó visualmente el panel privado con una cuenta de prueba activa.
 
-**Pendiente de prueba operativa:** suspender una cuenta de prueba y confirmar que la sesión existente se cierra, que el reingreso queda bloqueado y que las operaciones protegidas también se deniegan desde solicitudes directas. La entrega real del correo transaccional tampoco cuenta con confirmación documentada.
+**Pendiente de prueba operativa:** suspender una cuenta de prueba y confirmar que la sesión existente se cierra, que el reingreso queda bloqueado y que las operaciones protegidas también se deniegan desde solicitudes directas. Se registró la recepción y activación de una invitación de prueba. La recuperación de acceso por correo y la prueba de suspensión siguen pendientes.
 
 No interpretar la implementación informada como certificación de seguridad ni como autorización para abrir el módulo al público.
 

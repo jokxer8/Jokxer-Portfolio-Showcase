@@ -3,7 +3,7 @@
 | Fase | Entrega principal | Situación / condición para avanzar |
 | --- | --- | --- |
 | 1 — Fundación | Diagnóstico, arquitectura y contratos | Completada según documentación |
-| 2 — Identidad | Usuarios, invitaciones, roles y paneles | Implementada según informe; falta probar suspensión y confirmar correo transaccional |
+| 2 — Identidad | Usuarios, invitaciones, roles y paneles | Implementada según informe; invitación de prueba recibida y activada; falta validar recuperación por correo y suspensión |
 | 3 — Perfiles | Edición profesional y vista individual | Pendiente; privacidad y edición por propietario deben probarse |
 | 4 — Portafolios | Proyectos, repositorios y recursos | Pendiente; requiere aislamiento, cuotas y almacenamiento privado |
 | 5 — Moderación | Versionado, revisión y aprobación | Pendiente; ninguna edición debe publicarse sin autorización |
