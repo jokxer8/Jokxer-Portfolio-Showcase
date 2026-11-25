@@ -65,6 +65,8 @@ Este repositorio presenta el proyecto en términos generales. El código fuente 
 - [Hoja de ruta](docs/jokxer-collaborators/ROADMAP.md)
 - [Registro de cambios](docs/jokxer-collaborators/CHANGELOG.md)
 
+**Nivel:** sitio publicado; módulo de colaboradores **implementado en entorno privado**. Hay [evidencia de 3 de 5 flujos de prueba](docs/jokxer-collaborators/MILESTONES.md#flujos-de-prueba). El siguiente hito es comprobar recuperación de acceso y suspensión.
+
 ### Flujo de acceso
 
 ```mermaid

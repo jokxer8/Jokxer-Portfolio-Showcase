@@ -34,6 +34,18 @@ Los detalles de implementación y resultados de pruebas de seguridad proceden de
 - **Pendiente:** ejecutar la acción de suspensión y confirmar cierre de la sesión existente, bloqueo de reingreso y denegación de operaciones directas.
 - Se registró la recepción y activación de una invitación de prueba. La recuperación de acceso por correo y la prueba de suspensión siguen pendientes.
 
+### Flujos de prueba
+
+| Flujo | Estado | Criterio |
+|---|---|---|
+| Invitar | **Validado en una cuenta de prueba** | Invitación recibida. |
+| Activar | **Validado en una cuenta de prueba** | La invitación permitió activar la cuenta. |
+| Entrar al panel | **Validado en una cuenta de prueba** | Se observó el panel privado con la cuenta activa. |
+| Recuperar acceso por correo | **Pendiente de validar** | Completar la recuperación y verificar el reingreso. |
+| Suspender | **Pendiente de validar** | Confirmar cierre de sesión, bloqueo de reingreso y denegación de operaciones protegidas. |
+
+**Indicador: 3 de 5 flujos con evidencia**, corte al 25 de noviembre de 2026. Es el alcance de esta lista de pruebas, no un porcentaje de avance del proyecto ni un lanzamiento a público.
+
 ## Publicación
 
 El sitio personal sigue separado del módulo privado. No se publican perfiles de colaboradores, datos de cuenta, tokens, instrucciones privilegiadas ni detalles internos de infraestructura.
