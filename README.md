@@ -12,7 +12,11 @@ Conoce el sitio publicado y el alcance del módulo privado Jokxer Collaborators.
 
 [🌐 Sitio](https://jokxer.dev/) · [🎨 Diseño](#diseño-y-tecnología) · [👥 Collaborators](#jokxer-collaborators) · [🧪 Evidencia](docs/jokxer-collaborators/MILESTONES.md)
 
+**Ruta de lectura:** [Plan Maestro](PLAN-MAESTRO.md)
+
 </div>
+
+**Tecnologías en uso:** Bolt para el hosting, Cloudflare para el dominio, Google Search Console para SEO y Resend para correo transaccional. [Qué hace cada herramienta](PLAN-MAESTRO.md#tecnologías-y-para-qué-las-uso).
 
 ## El proyecto
 
