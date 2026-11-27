@@ -46,6 +46,17 @@ Los detalles de implementación y resultados de pruebas de seguridad proceden de
 
 **Indicador: 3 de 5 flujos con evidencia**, corte al 25 de noviembre de 2026. Es el alcance de esta lista de pruebas, no un porcentaje de avance del proyecto ni un lanzamiento a público.
 
+## Cómo cerrar los dos flujos pendientes
+
+Estos son criterios para una futura validación con una cuenta desechable en un entorno controlado, no resultados nuevos.
+
+| Flujo | Evidencia mínima para marcarlo probado | Caso que no debe pasar |
+|---|---|---|
+| Recuperación de acceso | La cuenta de prueba solicita la recuperación, cambia la credencial y vuelve a entrar desde una sesión nueva. Registrar qué se observó y a qué hora, sin guardar enlaces o secretos. | Un enlace vencido o consumido no debe permitir otro cambio de credencial. |
+| Suspensión | Con una sesión ya abierta, suspender la cuenta de prueba desde el panel administrativo. Comprobar la pérdida de acceso protegido, el bloqueo del reingreso y la denegación de una operación de prueba permitida antes de suspenderla. | Una sesión anterior no debe continuar accediendo a datos u operaciones protegidos tras constatar la revocación. |
+
+Al cerrar cada flujo, registrar el entorno, fecha y resultado de cada comprobación. Hasta entonces, el indicador permanece en **3 de 5 flujos con evidencia**.
+
 ## Publicación
 
 El sitio personal sigue separado del módulo privado. No se publican perfiles de colaboradores, datos de cuenta, tokens, instrucciones privilegiadas ni detalles internos de infraestructura.
